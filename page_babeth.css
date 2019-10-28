@@ -1,0 +1,21 @@
+/*position de la première image */
+.image_perso{
+	width: 200px;
+	height: auto;
+}
+/*position de la deuxième image*/
+.image_carnet{
+	position: absolute;
+	top: 560px;
+	left: 300px;
+	width: 200px;
+	height: auto;	
+}
+/*remplissage du fond*/
+body{
+	background-image: url("img_nsi/fe_1.jpg")
+}
+/*modifications de la police*/
+.premierp {
+	color: purple;
+}

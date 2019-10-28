@@ -1,0 +1,27 @@
+header{ 
+		background:linear-gradient(yellow,orange);
+		-webkit-linear-gradient(yellow,orange);
+		-moz-linear-gradient(yellow,orange);
+}
+body{
+	background-image: url("img_nsi/idee_3.jpg");
+		margin: 20px 20px;
+		border: 6px 6px;
+		padding: 20px 20px;
+		height: 100px;
+		width: auto;
+}
+fieldset{
+	border-style: groove;
+	border-radius: 15px;
+	background: linear-gradient(gold,orange);
+}
+h1{
+	text-align:center;
+}
+p{
+	text-align:center;
+}
+ul{
+	text-align: center;
+}

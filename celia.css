@@ -1,0 +1,55 @@
+/* body=le fond de la page*/
+body{
+	color: purple;
+	background-color:white;
+	background-image: url("img_nsi/image_fond.jpeg");
+	font-family: Verdana, sans-serif;
+}
+/*h1 est le titre*/
+h1{
+	
+	border-style:double;
+	border-radius: 10px;
+	background-color:white;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: capitalize;
+	text-shadow: 3px 2px pink;
+}
+/*Ce block appartient aux deux images*/
+img{ 
+	width: 600px;
+	height: 300px;
+	float:center;
+}
+/*Contient les éléments p en gras*/
+p strong{
+	border-style: double; 
+	border-color: purple;
+	background-color: white;
+	border-radius: 5px;
+	font-family: 'Lobster', cursive;
+	float:center;
+	text-align: -moz-center;
+	text-align: -webkit-center;
+}
+/*C'est le lien vers la musique*/
+li{
+	border-style: groove;
+	border-color: purple;
+	background-color: black;
+	font-family:'Lobster', cursive;
+	float:under-div;
+}
+/*C'est le grand paragraphe*/ 
+div{
+	border-style:double;
+	border-color:purple;
+	background-color:white;
+	border-radius: 20px;
+	font-family: 'Lobster', cursive;
+	position: bottom;
+	top: 0;
+	left: 0;
+	width: 100% ;
+}
